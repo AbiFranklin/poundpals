@@ -120,6 +120,9 @@ a {
     color: orangered;
 }
 
+
+
+
 .hero-area-volunteer h1 {
     position: relative;
     right: 15%;
@@ -158,6 +161,23 @@ a {
     color: orangered;
 }
 
+.category-give {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #009E8C;
+    border-radius: 10px;
+    line-height: 10px;
+    box-shadow: 1px 1px 3px #312850;
+    margin-bottom: 20px;
+}
+
+.category-give h2 {
+    color: #312850;
+}
+
 .category-featured {
     display: inline-flex;
     flex-direction: column;
@@ -193,6 +213,24 @@ a {
 
 
 .category-featured img {
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px #312850;
+}
+
+.category-adopt {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 28%;
+    border: 1px solid #009E8C;
+    border-radius: 10px;
+    line-height: 10px;
+    box-shadow: 1px 1px 3px #312850;
+    margin: 0 2%;
+}
+
+.category-adopt img {
     border-radius: 50%;
     box-shadow: 1px 1px 3px #312850;
 }

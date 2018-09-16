@@ -2,11 +2,11 @@
 
 get_header(); ?>
 <div class="hero-area-volunteer">
-    <h1>Volunteer</h1>
+    <h1>Available Cats</h1>
 </div>
 
     <?php
-    $query = new WP_Query( array( 'category_name' => 'volunteer' ) );
+    $query = new WP_Query( array( 'category_name' => 'cat' ) );
     if ( $query->have_posts() ) :
         while ( $query->have_posts() ) : $query->the_post(); ?>
         <article <?php post_class(); ?>>

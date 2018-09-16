@@ -1,12 +1,12 @@
 <?php
 
 get_header(); ?>
-<div class="hero-area-volunteer">
-    <h1>Volunteer</h1>
+<div class="hero-area">
+    <h1>Available Dogs</h1>
 </div>
 
     <?php
-    $query = new WP_Query( array( 'category_name' => 'volunteer' ) );
+    $query = new WP_Query( array( 'category_name' => 'dog' ) );
     if ( $query->have_posts() ) :
         while ( $query->have_posts() ) : $query->the_post(); ?>
         <article <?php post_class(); ?>>
