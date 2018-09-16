@@ -119,8 +119,25 @@ a:hover {
 }
 
 .featured-pets {
-    margin-top: -25px;
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.category-urgent {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #009E8C;
+    border-radius: 10px;
+    line-height: 10px;
+    box-shadow: 1px 1px 3px #312850;
+    margin-bottom: 20px;
+}
+
+.category-urgent h2 {
+    color: orangered;
 }
 
 .category-featured {
